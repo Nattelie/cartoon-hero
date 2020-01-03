@@ -1,0 +1,80 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #00004c;
+    background-image: url('../images/remy-pixel-black.jpg');
+    background-repeat: repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+    text-shadow: 0 4px 20px black;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: green;
+}
+
+header img {
+    border-radius: 150px;
+    width: 400px;
+    border: 10px solid green;
+    box-shadow: 0 10px 20px black;
+}
+
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #E6E6E6;
+    
+}
+
+img.big-image {
+    max-width: 100%;
+}
+
+p.caption {
+    font-size: 16px;
+    color: lightgrey;
+    font-style: italic;
+}
+
+ol {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
